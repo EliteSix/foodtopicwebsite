@@ -1,0 +1,173 @@
+/* 	
+	Name: Dariyon Risberg
+	Date: October 25, 2021
+	Assignment: CS-125H Lab 3
+ */
+ 
+/* Colors:
+	Greenery: #88B04B
+	Light-Green: #E6EBD0
+	Sky-Blue: #43A1C7
+	Dark-Red: #980000
+	Dark-Green: #00CC33
+*/
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Styles for the body */
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+h1, h2, h3, p {
+	font-family: Ariel, Helvetica, sans-serif;
+}
+
+/* Styles for the header */
+
+header {
+	display: flex;
+	background-color: #88B04B;
+}
+
+header div {
+	padding: 0 10%;
+	align-items: center;
+}
+
+header div h1 {
+	display: inline-block;
+	padding-left: 5px;
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	color: white;
+	vertical-align: middle;
+}
+
+header div img {
+	vertical-align:middle;
+}
+
+
+/* Styles for the main */
+
+main {
+	background-color: #E6EBD0;
+}
+
+main a {
+	color: black;
+}
+
+/* Styles for the infomation header */
+
+.infoHeader {
+	padding: 0 10%;
+	margin-top: -22px;
+	padding-bottom: 5px;
+	background-color: #43A1C7;
+}
+
+.infoHeader h1 {
+	padding-top: 15px;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	color: whitesmoke;
+}
+
+.infoHeader p {
+	color: whitesmoke;
+}
+
+/* Styles for the information section */
+
+.infoSection {
+	padding: 0 10%;
+}
+
+.infoSection h2 {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-size: 24px;
+}
+
+.infoSection p a:hover {
+	font-style: italic;
+}
+
+/* Styles for the cooking section */
+
+.cookSection {
+	padding: 0 10%;
+	background-color: #43A1C7;
+	padding-bottom: 20px;
+}
+
+.cookSection h1, .cookSection h3, .cookSection p {
+	color: whitesmoke;
+}
+
+.cookSection h1 {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	padding-top: 20px;
+}
+
+.cookSection h3 {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+}
+
+.cookSection img {
+	padding-top: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+/* Common paragraph style */
+
+.fontStyle {
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	text-align: justify;
+	word-spacing: 3px;
+}
+
+/* Color specific food text style */
+
+#tomatoColor {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-size: 24px;
+	color: #B80000;
+}
+
+#lettuceColor {
+	padding-top: 20px;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-size: 24px;
+	color: #00CC33;
+}
+
+/* Styles for the footer */
+
+footer {
+	padding: 5px 0;
+	text-align: center;
+	background-color: #88B04B;
+}
+
+footer p {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	word-spacing: 2px;
+	color: white;
+}
